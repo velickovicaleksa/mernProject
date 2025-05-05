@@ -1,0 +1,51 @@
+#createStudent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 2em;
+  background-color: #7e436f;
+  padding: 10px;
+  border-radius: 10px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2.5em;
+  padding-top: 1.5em;
+}
+
+#createStudent > form {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  width: 60%;
+}
+
+#createStudent > form > input[type="text"],
+input[type="number"],select {
+  margin-top: 0.7em;
+  padding: 5px;
+}
+
+#createStudent > form > input[type="radio"] {
+  margin-top: 0.7em;
+}
+
+#createStudent > form > input[type="submit"] {
+  margin-top: 0.7em;
+  padding: 10px;
+}
+#createStudent > form > input[type="submit"]:hover {
+  background-color: #7e436f;
+  border: 2px solid white;
+}
+
+#errorList {
+    list-style-type: none;
+}
+#errorList > li {
+    color: white;
+    font-weight: bold;
+}

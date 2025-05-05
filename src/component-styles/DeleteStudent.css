@@ -1,0 +1,18 @@
+table {
+    width: 80%;
+    margin: 1.5em auto;
+    border: 2px solid salmon;
+    background-color: #389457;
+    text-align: center;
+}
+td {
+    border: 1px solid salmon;
+    padding: 5px;
+    font-weight: bolder;
+}
+td > input {
+    padding : 10px;
+}
+td > input:hover {
+    background-color: red;
+}
